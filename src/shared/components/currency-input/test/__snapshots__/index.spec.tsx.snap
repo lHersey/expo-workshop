@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CurrencyInput /> snapshots should match snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFF",
+          "borderRadius": 50,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingBottom": 8,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 8,
+          "position": "relative",
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#5e5e5e",
+            "fontFamily": "Inter_500",
+            "fontSize": 16,
+          },
+          Object {
+            "color": "#076587",
+            "fontFamily": "Inter_700",
+            "fontSize": 24,
+          },
+        ]
+      }
+    >
+      $
+    </Text>
+    <View
+      style={
+        Array [
+          undefined,
+          Object {
+            "position": "relative",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 18,
+              "marginTop": -3.2,
+            },
+            Array [
+              Object {
+                "color": "#F16A6A",
+                "fontFamily": "Inter_200",
+                "fontSize": 52,
+              },
+            ],
+          ]
+        }
+      >
+        2,300.00
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 65,
+              },
+              Object {
+                "color": "#6495ed",
+              },
+              Object {
+                "color": undefined,
+              },
+              Object {
+                "color": "transparent",
+              },
+            ]
+          }
+        >
+          |
+        </Text>
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        caretHidden={true}
+        defaultValue="0"
+        keyboardType="numeric"
+        numberOfLines={1}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        rejectResponderTermination={true}
+        selection={
+          Object {
+            "end": 8,
+            "start": 8,
+          }
+        }
+        selectionColor="transparent"
+        spellCheck={false}
+        style={
+          Object {
+            "bottom": 0,
+            "color": "transparent",
+            "fontSize": 1,
+            "left": -20,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        textAlign="center"
+        underlineColorAndroid="transparent"
+        unit="$"
+        value="2,300.00"
+      />
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

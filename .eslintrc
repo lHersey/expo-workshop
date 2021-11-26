@@ -20,7 +20,8 @@
     "prettier/prettier": "error",
     "simple-import-sort/exports": "error",
     "simple-import-sort/imports": "error",
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "jest/no-hooks": "off"
   },
   "overrides": [
     {

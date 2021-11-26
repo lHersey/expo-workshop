@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BalanceTypeCard /> snapshots should match snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.15)",
+          "borderRadius": 10,
+          "display": "flex",
+          "flexBasis": 0,
+          "flexDirection": "row",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "marginBottom": 10,
+          "marginLeft": 10,
+          "marginRight": 10,
+          "marginTop": 10,
+          "paddingBottom": 10,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 10,
+        },
+      ]
+    }
+  >
+    <Text />
+    <View
+      style={
+        Array [
+          Object {
+            "marginLeft": 10,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#5e5e5e",
+              "fontFamily": "Inter_500",
+              "fontSize": 16,
+            },
+            Object {
+              "color": "#e3e3e3",
+              "fontFamily": "Inter_700",
+              "fontSize": 14,
+            },
+          ]
+        }
+      >
+        Expenses
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#5e5e5e",
+              "fontFamily": "Inter_500",
+              "fontSize": 16,
+            },
+            Object {
+              "color": "#e3e3e3",
+              "fontSize": 14,
+            },
+          ]
+        }
+      >
+        $
+        4000
+        .00
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

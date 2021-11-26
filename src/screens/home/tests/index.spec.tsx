@@ -1,6 +1,5 @@
 import { render } from '@testing-library/react-native';
-import React from 'react';
-import Providers from 'shared/providers';
+import Providers from 'shared/providers/test-providers';
 
 import Home from '../index';
 

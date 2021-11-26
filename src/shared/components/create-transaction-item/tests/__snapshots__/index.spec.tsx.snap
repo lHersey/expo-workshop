@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CreateTransactionItem /> snapshots should match snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFF",
+          "borderRadius": 10,
+          "flexDirection": "row",
+          "marginTop": 20,
+          "paddingBottom": 20,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 20,
+          "width": "100%",
+        },
+      ]
+    }
+    testID="CREATE_TRANSACTION_ITEM_TEST_ID"
+  >
+    <Text />
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#5e5e5e",
+            "fontFamily": "Inter_500",
+            "fontSize": 16,
+          },
+          Object {
+            "color": "#b0b0b0",
+            "fontFamily": "Inter_700",
+            "marginLeft": 10,
+          },
+        ]
+      }
+    >
+      Label
+    </Text>
+  </View>
+</RNCSafeAreaProvider>
+`;

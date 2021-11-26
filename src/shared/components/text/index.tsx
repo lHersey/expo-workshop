@@ -1,15 +1,15 @@
-import React, { ComponentProps, FC } from 'react';
+import { ComponentProps, FC } from 'react';
 
-import { BaseText } from './styles';
+import { TextDefault } from './styles';
 
-type Props = ComponentProps<typeof BaseText> & {
+type Props = ComponentProps<typeof TextDefault> & {
   text?: string;
 };
 
 const Text: FC<Props> = props => {
   const { text, children, ...rest } = props;
 
-  return <BaseText {...rest}>{text ?? children}</BaseText>;
+  return <TextDefault {...rest}>{text ?? children}</TextDefault>;
 };
 
 export default Text;

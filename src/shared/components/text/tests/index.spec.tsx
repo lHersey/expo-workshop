@@ -1,6 +1,5 @@
 import { render } from '@testing-library/react-native';
-import React from 'react';
-import Providers from 'shared/providers';
+import Providers from 'shared/providers/test-providers';
 
 import Text from '../index';
 
@@ -10,7 +9,7 @@ describe('<Text />', () => {
       expect.hasAssertions();
       const rendered = render(
         <Providers>
-          <Text text="Hello Text" />
+          <Text>Hello Text</Text>
         </Providers>,
       ).toJSON();
 
@@ -19,30 +18,15 @@ describe('<Text />', () => {
   });
 
   describe('unit', () => {
-    it('should render the text by prop', () => {
+    it('should render the text', () => {
       expect.hasAssertions();
-
-      const text = 'Hello Text';
       const { queryByText } = render(
         <Providers>
-          <Text text={text} />
+          <Text>Hello Text</Text>
         </Providers>,
       );
 
-      expect(queryByText(text)).toBeTruthy();
-    });
-
-    it('should render the text by children', () => {
-      expect.hasAssertions();
-
-      const text = 'Hello Text';
-      const { queryByText } = render(
-        <Providers>
-          <Text>{text}</Text>
-        </Providers>,
-      );
-
-      expect(queryByText(text)).toBeTruthy();
+      expect(queryByText('Hello Text')).toBeTruthy();
     });
   });
 });

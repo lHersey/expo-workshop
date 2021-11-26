@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CategoryItem /> snapshots should match snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#f2f5f7",
+          "borderRadius": 20,
+          "flexDirection": "row",
+          "flexGrow": 1,
+          "marginTop": 10,
+          "paddingBottom": 10,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 10,
+        },
+      ]
+    }
+    testID="CATEGORY_ITEM"
+  >
+    <View
+      color="#d3fae2"
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#f1ffff",
+            "borderRadius": 25,
+            "height": 50,
+            "justifyContent": "center",
+            "marginRight": 20,
+            "width": 50,
+          },
+        ]
+      }
+    >
+      <Text />
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#5e5e5e",
+            "fontFamily": "Inter_500",
+            "fontSize": 16,
+          },
+          Object {
+            "fontFamily": "Inter_300",
+          },
+        ]
+      }
+    >
+      CategoryName
+    </Text>
+  </View>
+</RNCSafeAreaProvider>
+`;

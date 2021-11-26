@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TransactionList /> snapshots should match snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "display": "flex",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "marginTop": 40,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginBottom": 20,
+            "paddingBottom": 0,
+            "paddingLeft": 30,
+            "paddingRight": 30,
+            "paddingTop": 0,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#5e5e5e",
+              "fontFamily": "Inter_500",
+              "fontSize": 16,
+            },
+            Object {
+              "fontFamily": "Inter_700",
+              "fontSize": 20,
+            },
+          ]
+        }
+      >
+        Transactions
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#5e5e5e",
+              "fontFamily": "Inter_500",
+              "fontSize": 16,
+            },
+            Object {
+              "color": "#b0b0b0",
+              "fontSize": 15,
+            },
+          ]
+        }
+      >
+        View All
+      </Text>
+    </View>
+    <RCTScrollView
+      ItemSeparatorComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "displayName": "Styled(View)",
+          "inlineStyle": InlineStyle {
+            "rules": Array [
+              "
+  margin: 10px 0;
+",
+            ],
+          },
+          "render": [Function],
+          "shouldForwardProp": undefined,
+          "styledComponentId": "StyledNativeComponent",
+          "target": [Function],
+          "withComponent": [Function],
+        }
+      }
+      data={Array []}
+      disableVirtualization={false}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      style={
+        Array [
+          Object {
+            "paddingBottom": 0,
+            "paddingLeft": 30,
+            "paddingRight": 30,
+            "paddingTop": 0,
+          },
+        ]
+      }
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View />
+    </RCTScrollView>
+  </View>
+</RNCSafeAreaProvider>
+`;

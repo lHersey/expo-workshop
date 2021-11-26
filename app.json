@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "template",
-    "slug": "template",
+    "name": "Expenses",
+    "slug": "expenses",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,18 +11,21 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 4000
     },
     "assetBundlePatterns": ["**/*"],
     "android": {
+      "package": "com.lhersey.expenses",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.lhersey.card-saver"
+      "buildNumber": "1.0.0.0",
+      "bundleIdentifier": "com.lhersey.expenses",
+      "supportsTablet": false
     }
   }
 }

@@ -1,33 +1,47 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Home /> snapshots should match snapshot 1`] = `
-<View
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
   style={
     Array [
       Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexBasis": 0,
-        "flexGrow": 1,
-        "flexShrink": 1,
-        "justifyContent": "center",
+        "flex": 1,
       },
+      undefined,
     ]
   }
 >
-  <Text
+  <View
     style={
       Array [
         Object {
-          "color": "#102A43",
-        },
-        Object {
-          "fontSize": 24,
+          "alignItems": "center",
+          "display": "flex",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "center",
         },
       ]
     }
   >
-    Hello Home
-  </Text>
-</View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#5e5e5e",
+            "fontFamily": "Inter_500",
+            "fontSize": 16,
+          },
+          Object {
+            "fontFamily": "Inter_700",
+          },
+        ]
+      }
+    >
+      Hello Home
+    </Text>
+  </View>
+</RNCSafeAreaProvider>
 `;

@@ -1,15 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Text /> snapshots should match snapshot 1`] = `
-<Text
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
   style={
     Array [
       Object {
-        "color": "#102A43",
+        "flex": 1,
       },
+      undefined,
     ]
   }
 >
-  Hello Text
-</Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5e5e5e",
+          "fontFamily": "Inter_500",
+          "fontSize": 16,
+        },
+      ]
+    }
+  >
+    Hello Text
+  </Text>
+</RNCSafeAreaProvider>
 `;

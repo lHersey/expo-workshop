@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> snapshots should match default snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "visible",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#FFF",
+            "borderRadius": 15,
+            "display": "flex",
+            "flexGrow": 1,
+            "overflow": "hidden",
+            "paddingBottom": 15,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 15,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#5e5e5e",
+              "fontFamily": "Inter_500",
+              "fontSize": 16,
+            },
+          ]
+        }
+      >
+        Hello Card
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`<Card /> snapshots should match gradient snapshot 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "visible",
+        },
+      ]
+    }
+  >
+    <ViewManagerAdapter_ExpoLinearGradient
+      proxiedProperties={
+        Object {
+          "colors": Array [
+            4280987875,
+            4292112360,
+            4294874740,
+          ],
+          "endPoint": Array [
+            1,
+            0,
+          ],
+          "locations": undefined,
+          "startPoint": Array [
+            0,
+            0,
+          ],
+        }
+      }
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#FFF",
+            "borderRadius": 15,
+            "display": "flex",
+            "flexGrow": 1,
+            "overflow": "hidden",
+            "paddingBottom": 15,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 15,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#5e5e5e",
+              "fontFamily": "Inter_500",
+              "fontSize": 16,
+            },
+          ]
+        }
+      >
+        Hello Card
+      </Text>
+    </ViewManagerAdapter_ExpoLinearGradient>
+  </View>
+</RNCSafeAreaProvider>
+`;

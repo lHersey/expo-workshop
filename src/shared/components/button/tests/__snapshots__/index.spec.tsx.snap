@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> snapshots should match snapshot dense modifier 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    accessible={true}
+    dense={true}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderRadius": 15,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "minWidth": 100,
+          "paddingBottom": 10,
+          "paddingLeft": 7.5,
+          "paddingRight": 7.5,
+          "paddingTop": 10,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "column",
+          },
+        ]
+      }
+    >
+      <Text
+        dense={true}
+        style={
+          Array [
+            Object {
+              "color": "#5e5e5e",
+              "fontFamily": "Inter_500",
+              "fontSize": 16,
+            },
+            Object {
+              "color": "#FFF",
+            },
+          ]
+        }
+      >
+        Hello Button
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`<Button /> snapshots should match snapshot on base state 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderRadius": 15,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "minWidth": 100,
+          "paddingBottom": 20,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+          "paddingTop": 20,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "column",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#5e5e5e",
+              "fontFamily": "Inter_500",
+              "fontSize": 16,
+            },
+            Object {
+              "color": "#FFF",
+            },
+          ]
+        }
+      >
+        Hello Button
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
