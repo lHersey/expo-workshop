@@ -3321,10 +3321,10 @@
     "@babel/runtime" "^7.12.5"
     "@types/testing-library__react-hooks" "^3.4.0"
 
-"@testing-library/react-native@^8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@testing-library/react-native/-/react-native-8.0.0.tgz#f1b8f6bcc9f0ef6026b0ec7d072faf4af0e622fa"
-  integrity sha512-XwQIv4Amj8AYsPjASo+1XLFWY7qMm+FyV4+QU5j97CpRd+YasCBNnvfyDAZoudm/5Y0Yx55DYjAX36RugxasPQ==
+"@testing-library/react-native@^10.1.0":
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/@testing-library/react-native/-/react-native-10.1.0.tgz#dfe8f03c1a100590521c357a9a360fd59061c89c"
+  integrity sha512-gsZONBTD7m4224HXZdmsZlN9Hike/BLxTUds5SX8UNpmbG/Ly+XPmds5buaqglitY4pT2/yBwLSLTa5+czcpTg==
   dependencies:
     pretty-format "^27.0.0"
 
